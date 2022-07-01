@@ -40,6 +40,3 @@ function adjustHue(val:number) {
 
   var pates = createScientificPalettes({ l: 50, c: 30, h: 0, mode: 'lch' });
   const triadic = pates['analogous'].map((color: number) => formatHex(color))
-  console.log(triadic)
-  console.log(triadic)
-  console.log(triadic)

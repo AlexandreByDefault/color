@@ -28,6 +28,3 @@ function createScientificPalettes(baseColor) {
 }
 var pates = createScientificPalettes({ l: 50, c: 30, h: 0, mode: 'lch' });
 const triadic = pates['analogous'].map((color) => (0, culori_1.formatHex)(color));
-console.log(triadic);
-console.log(triadic);
-console.log(triadic);
